@@ -160,6 +160,16 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  padding: 2.5rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
