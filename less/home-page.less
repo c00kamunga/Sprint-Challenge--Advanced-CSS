@@ -2,6 +2,7 @@
 
 .home {
 
+
   .intro {
 
     h2 {
@@ -11,19 +12,45 @@
     p {
       padding:0 15px;
     }
-  
+  .planet{
+    @media@phone{
+      width: 100%;
+    }
+  }
   }
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+@media @phone{
+  .sky{
+    @media@phone{
+      display: none;
+    }
+  }
+  .launch{
+    @media@phone{
+      display: none;
+    }
+  }
+  .rocket{
+    @media@phone{
+      width: 100%;
+    }
+  }
+}
 
-    img {
+
+
+      img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media @phone{
+        width: 100%;
+      }
     }
   }
 
@@ -45,9 +72,17 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media @phone{
+      width: 100%;
+      flex-direction: column-reverse;
+      padding: 0;
+    }
 
     .walk-text {
       width: 50%;
+      @media @phone{
+        width: 100%;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -57,13 +92,20 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .btn:hover{
+        background-color: @button-hover;
+        transform: rotate(30deg);
+        transition-duration: 800ms;
       }
+        
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @phone{
+        width: 100%;
+      }
       
       img {
         width: 100%;
