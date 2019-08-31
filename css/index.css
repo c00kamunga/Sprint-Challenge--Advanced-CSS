@@ -260,9 +260,6 @@ footer {
     flex-direction: column-reverse;
     padding: 0;
   }
-  .home .walk .astronaut {
-    width: 100%;
-  }
 }
 .home .walk .walk-text {
   width: 50%;
@@ -286,6 +283,11 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media ( max-width: 500px ) {
+  .home .walk .walk-img {
+    width: 100%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
