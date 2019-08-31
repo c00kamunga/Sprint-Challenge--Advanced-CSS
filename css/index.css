@@ -3,6 +3,7 @@
   padding: 1rem 1.5rem;
   border-radius: 5px;
   max-width: 20%;
+  font-size: 1.1rem;
 }
 @media ( max-width: 500px ) {
   .btn {
@@ -10,6 +11,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 2rem 3rem;
+    font-size: 2rem;
   }
 }
 .header-nav {
