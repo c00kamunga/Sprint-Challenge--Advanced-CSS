@@ -192,10 +192,30 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+@media ( max-width: 500px ) {
+  .home .intro .planet {
+    width: 100%;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media ( max-width: 500px ) and ( max-width: 500px ) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media ( max-width: 500px ) and ( max-width: 500px ) {
+  .home .space-images .launch {
+    display: none;
+  }
+}
+@media ( max-width: 500px ) and ( max-width: 500px ) {
+  .home .space-images .rocket {
+    width: 100%;
+  }
 }
 .home .space-images img {
   width: 28%;
